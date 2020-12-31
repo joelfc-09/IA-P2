@@ -1,4 +1,4 @@
-Referrer,Location,ReadFAQ,Pagesviewed,Service 
+Referrer,Location,ReadFAQ,Pagesviewed,PreferredPayment,Service 
 araknet,NewZealand,no,18,gencoin,Basic
 digg,UK,yes,33,bitcoin,None
 kiwitobes,Spain,no,24,gencoin,Premium
