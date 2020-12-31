@@ -8,6 +8,8 @@ def filter_token(token):
 	except ValueError:
 		return token
 
+def to_register(string):
+	return list(map(filter_token,string.split(",")))
 
 def read_file(file_path, data_sep=",", ignore_first_line=False):
 	prototypes = []
@@ -86,6 +88,12 @@ class decisionnode:
 		self.results = results
 		self.tb = tb
 		self.fb = fb
+
+	def print(self):
+		if self.results is None:
+			print("Col: ", self.col, "Value: ", self.value)
+		else:
+			print(self.results)
 
 
 def calculate_gain(current_score, set1, set2, scoref=entropy):
@@ -171,7 +179,29 @@ def buildtree_iterative(part, scoref=entropy, beta=0.0, numeric_step=0.1):
 	return root_node
 
 
+def classify(root_node, register):
+	print("Classifying register... ", register)
+	current_node = root_node
+	current_node.print()
+	while current_node.results is None:
+		if isinstance(current_node.value, str):
+			if current_node.value == register[current_node.col]:
+				current_node = current_node.tb
+			else:
+				current_node = current_node.fb
+		else:
+			if current_node.value < register[current_node.col]:
+				current_node = current_node.tb
+			else:
+				current_node = current_node.fb
+	if len(current_node.results) == 1:
+		print("Register is most likely ", list(current_node.results.keys()))
+	else:
+		print("Register is between ", " or ".join([str(k) for k in current_node.results.keys()]))
+
 readfile = read_file("decision_tree_extended.txt", ignore_first_line=True)
 
 nodetest = buildtree(readfile, scoref=gini_impurity, beta=0.001)
 printtree.printtree(nodetest)
+
+classify(nodetest,to_register("araknet,France,no,29,gencoin"))
