@@ -1,6 +1,9 @@
 import random
 import matplotlib.pyplot as plt
 from functools import reduce
+from tqdm import tqdm
+import matplotlib.colors as plc
+from time import sleep
 
 filename = "seeds.csv"
 
@@ -25,6 +28,8 @@ def create_chart(ks, data):
 
 	num_ks = [i for i in range(1, ks)]
 	bar_ch = plt.bar(num_ks, data)
+
+	plt.title("Intra cluster variation sum by cluster number")
 
 	plt.show()
 
@@ -140,19 +145,33 @@ class Kmeans:
 		return predictions
 
 	def _a(self, rows, row_idx, cluster_idx):
-		return sum([euclidean_squared(rows[row_idx], rows[x]) for x in self.best_matches[cluster_idx] if x != row_idx])
+		if len(self.best_matches[cluster_idx]) == 1:
+			return 0
+		idxs_of_cluster = [euclidean_squared(rows[row_idx], rows[x]) for x in self.best_matches[cluster_idx] if
+		                   x != row_idx]
+		sum_of_same_cluster_dists = sum(idxs_of_cluster)
+		return (sum_of_same_cluster_dists) / (len(self.best_matches[cluster_idx]) - 1)
 
 	def _b(self, rows, row_idx, cluster_idx):
 		dists = []
 		for clust_idx in range(len(self.best_matches)):
-			if clust_idx != cluster_idx:
-				dists.extend(euclidean_squared(rows[row_idx], rows[x]) for x in self.best_matches[clust_idx])
+			if clust_idx == cluster_idx:
+				dists.append(9999)
+			elif len(self.best_matches[clust_idx]) == 0:
+				dists.append(9999)
+			else:
+				distance_to_clust_sum = sum(
+					[euclidean_squared(rows[row_idx], rows[x]) for x in self.best_matches[clust_idx]])
+				avg_dist = distance_to_clust_sum / len(self.best_matches[clust_idx])
+				dists.append(avg_dist)
 		return reduce((lambda x, y: min(x, y)), dists, 9999)
 
 	def silhouette(self, rows, row_idx):
 		cluster_idx = [i for i in range(len(self.best_matches)) if row_idx in self.best_matches[i]][0]
 		a = self._a(rows, row_idx, cluster_idx)
 		b = self._b(rows, row_idx, cluster_idx)
+		if max(a, b) == 0:
+			return 0
 		return (b - a) / max(a, b)
 
 	def _intra_cluster_variation(self, rows, cluster_idx):
@@ -165,13 +184,52 @@ class Kmeans:
 	def intra_cluster_variation(self, rows):
 		return sum([self._intra_cluster_variation(rows, i) for i in range(len(self.best_matches))])
 
+	def elbow_method(k, wss):
+		# rows: els punts
+		# wss: intra-cluster variation de tots els clusters
+		# Mètode: generar un gràfic amb els wss de totes les ks, el millor número de k és on "s'aplana" la curva
+		create_chart(k, wss)
 
-def elbow_method(k, wss):
-	# rows: els punts
-	# wss: intra-cluster variation de tots els clusters
-	# Mètode: generar un gràfic amb els wss de totes les ks, el millor número de k és on "s'aplana" la curva
-	create_chart(k, wss)
 
+def create_silhouette_chart(ks, silhouettes, chart=True):
+	accepted_colors = ['darkorange', 'forestgreen', 'cornflowerblue', 'red', 'black', 'mediumorchid', 'darkolivegreen',
+	                   'chocolate', 'crimson', 'deepskyblue', 'indigo', 'dimgray', 'lime', 'mediumspringgreen', 'gold']
+
+	accepted_colors = ['black'] * 15
+
+	accepted_colors_rgba = [plc.to_rgb(c) for c in accepted_colors]
+
+	plt.rcdefaults()
+
+	avg_sil = []
+
+	for k_total in range(1, ks):
+		dades = silhouettes[k_total]
+		y_dades_total = []
+		colors = []
+		for k_actual in range(max(dades.keys()) + 1):
+			try:
+				y_dades = list(dades[k_actual])
+			except KeyError:
+				continue
+			y_dades.sort(reverse=True)
+			y_dades_total.extend(y_dades)
+			colors.extend(accepted_colors_rgba[k_actual] * len(y_dades))
+		# print(x_pos)
+		# print(y_dades)
+		x_pos_total = [x for x in range(len(y_dades_total))]
+		if chart:
+			plt.bar(x_pos_total, y_dades_total)
+			plt.ylabel("Silhouette dels punts")
+			titol = "Total de clusters: " + str(k_total) + " Average silhouette: " + str(
+			sum(y_dades_total) / len(y_dades_total))
+		avg_sil.append(sum(y_dades_total) / len(y_dades_total))
+		if chart:
+			plt.title(titol)
+			plt.show()
+	return avg_sil
+
+# plt.show()
 
 points = [
 	[1, 1],
@@ -197,17 +255,40 @@ centroids = [
 ]
 
 inertias = []
-silhouettes = []
+silhouettes = {}
 wss = []
 k = 11
 csv_data = read_csv(filename)
-for valor_k in range(1, k):
-	print("K: ", valor_k)
-	kmeans = Kmeans(k=valor_k, distance=euclidean_squared, max_iters=100, execution_times=15)
+for valor_k in tqdm(range(1, k)):
+	kmeans = Kmeans(k=valor_k, distance=euclidean_squared, max_iters=1000, execution_times=150)
 	bestmatches2 = kmeans.fit(csv_data)
+
 	inertias.append(kmeans.inertia_)
+
+	silhouettes_of_all_points = [kmeans.silhouette(csv_data, x) for x in range(len(csv_data))]
+	silhouette = {}
+	for p_idx in range(len(csv_data)):
+		for cl_idx in range(len(kmeans.best_matches)):
+			if p_idx in kmeans.best_matches[cl_idx]:
+				if cl_idx not in silhouette.keys():
+					silhouette[cl_idx] = [silhouettes_of_all_points[p_idx]]
+				else:
+					silhouette[cl_idx].append(silhouettes_of_all_points[p_idx])
+	silhouettes[valor_k] = silhouette
+
 	wss.append(kmeans.intra_cluster_variation(csv_data))
 
-print(wss)
+# print(silhouettes)
 # Alla on s'aplane la curva es el optim
-elbow_method(k, wss)
+create_chart(k, wss)
+# print(silhouettes)
+avgs = create_silhouette_chart(k, silhouettes, chart=False)
+print(avgs)
+
+plt.rcdefaults()
+
+num_ks = [i for i in range(len(avgs))]
+bar_ch = plt.bar(num_ks, avgs)
+plt.title("Average silhouettes per numero de clusters")
+
+plt.show()
