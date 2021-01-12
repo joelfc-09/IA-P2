@@ -29,6 +29,7 @@ def create_chart(ks, data):
 	num_ks = [i for i in range(1, ks)]
 	bar_ch = plt.bar(num_ks, data)
 
+	# Intra cluster variation (WSS):
 	plt.title("Intra cluster variation sum by cluster number")
 
 	plt.show()
@@ -186,8 +187,8 @@ class Kmeans:
 
 	def elbow_method(k, wss):
 		# rows: els punts
-		# wss: intra-cluster variation de tots els clusters
-		# Mètode: generar un gràfic amb els wss de totes les ks, el millor número de k és on "s'aplana" la curva
+		# wss: intra-cluster variation de tots els clusters (suma de distancies entre els punts del cluster, sumats tots els clusters)
+		# Mètode: generar un gràfic amb els wss de totes les ks, el millor número de k és on "s'aplana" la curva, on baixe mes
 		create_chart(k, wss)
 
 
@@ -265,6 +266,7 @@ for valor_k in tqdm(range(1, k)):
 
 	inertias.append(kmeans.inertia_)
 
+	# Cada cluster: Silhouette de cada punt agrupada per clusters, per fer el gràfic
 	silhouettes_of_all_points = [kmeans.silhouette(csv_data, x) for x in range(len(csv_data))]
 	silhouette = {}
 	for p_idx in range(len(csv_data)):
@@ -279,16 +281,18 @@ for valor_k in tqdm(range(1, k)):
 	wss.append(kmeans.intra_cluster_variation(csv_data))
 
 # print(silhouettes)
-# Alla on s'aplane la curva es el optim
-create_chart(k, wss)
-# print(silhouettes)
-avgs = create_silhouette_chart(k, silhouettes, chart=False)
-print(avgs)
 
+# Alla on s'aplana la curva es el optim
+create_chart(k, wss)
+
+# Crear tots els grafics de silhouettes per cada k
+avgs = create_silhouette_chart(k, silhouettes, chart=True)
+
+# Crear un grafic de les average silhouettes, el maxim es el que ens interesse.
 plt.rcdefaults()
 
-num_ks = [i for i in range(len(avgs))]
-bar_ch = plt.bar(num_ks, avgs)
+num_ks = [i + 1 for i in range(len(avgs)) if i != 0]
+bar_ch = plt.bar(num_ks, avgs[1:])
 plt.title("Average silhouettes per numero de clusters")
 
 plt.show()
