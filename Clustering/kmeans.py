@@ -258,12 +258,15 @@ centroids = [
 	[2, 1]
 ]
 
-def apartat_clustering():
+def apartat_clustering(filename="seeds.csv", csv_data_2=None):
 	inertias = []
 	silhouettes = {}
 	wss = []
 	k = 11
-	csv_data = read_csv(filename)
+	if csv_data_2 is None:
+		csv_data = read_csv(filename)
+	else:
+		csv_data = csv_data_2
 	for valor_k in tqdm(range(1, k)):
 		kmeans = Kmeans(k=valor_k, distance=euclidean_squared, max_iters=1000, execution_times=150)
 		bestmatches2 = kmeans.fit(csv_data)
@@ -301,3 +304,4 @@ def apartat_clustering():
 
 	plt.show()
 
+# apartat_clustering()

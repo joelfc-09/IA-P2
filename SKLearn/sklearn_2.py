@@ -75,11 +75,23 @@ def train_and_predict(kmeans, train_data, test_data):
 	return kmeans.predict(test_data.values.tolist())
 
 
-kmeans = km.Kmeans(5, distance=km.euclidean_squared, max_iters=5000, execution_times=100)
+# km.apartat_clustering(csv_data_2=train_data_zeros.values.tolist()) # 3 elbow, 9 o 10 silhouette
+# km.apartat_clustering(csv_data_2=train_data_mean.values.tolist()) # 3 elbow, 8 o 9 silhouette
+# km.apartat_clustering(csv_data_2=train_data_median.values.tolist()) # 2 elbow, 4 silhouette
+# km.apartat_clustering(csv_data_2=train_data_most_frequent.values.tolist()) # 2 i 7
+# km.apartat_clustering(csv_data_2=train_data_uniform.values.tolist()) # 2 i 3 o 4
+# km.apartat_clustering(csv_data_2=train_data_distance.values.tolist()) # 2 i 5
 
+
+kmeans = km.Kmeans(3, distance=km.euclidean_squared, max_iters=5000, execution_times=100)
 print("Zeros:\t\t" + str(train_and_predict(kmeans, train_data_zeros, test_data_zeros)))
+kmeans = km.Kmeans(3, distance=km.euclidean_squared, max_iters=5000, execution_times=100)
 print("Mean:\t\t" + str(train_and_predict(kmeans, train_data_mean, test_data_mean)))
+kmeans = km.Kmeans(2, distance=km.euclidean_squared, max_iters=5000, execution_times=100)
 print("Median:\t\t" + str(train_and_predict(kmeans, train_data_median, test_data_median)))
+kmeans = km.Kmeans(2, distance=km.euclidean_squared, max_iters=5000, execution_times=100)
 print("MostFreq:\t" + str(train_and_predict(kmeans, train_data_most_frequent, test_data_most_frequent)))
+kmeans = km.Kmeans(2, distance=km.euclidean_squared, max_iters=5000, execution_times=100)
 print("Uniform:\t" + str(train_and_predict(kmeans, train_data_uniform, test_data_uniform)))
+kmeans = km.Kmeans(2, distance=km.euclidean_squared, max_iters=5000, execution_times=100)
 print("Distance:\t" + str(train_and_predict(kmeans, train_data_distance, test_data_distance)))
