@@ -17,9 +17,12 @@ def euclidean_squared(p1, p2):
 
 def read_csv(csv_filename):
 	rows = []
-	with open(csv_filename, "r") as f:
-		for line in [ln.rstrip('\n') for ln in f.readlines()]:
-			rows.append([float(x) for x in line.split(",")])
+	try:
+		with open(csv_filename, "r") as f:
+			for line in [ln.rstrip('\n') for ln in f.readlines()]:
+				rows.append([float(x) for x in line.split(",")])
+	except FileNotFoundError:
+		return []
 	return rows
 
 
@@ -255,44 +258,50 @@ centroids = [
 	[2, 1]
 ]
 
-inertias = []
-silhouettes = {}
-wss = []
-k = 11
-csv_data = read_csv(filename)
-for valor_k in tqdm(range(1, k)):
-	kmeans = Kmeans(k=valor_k, distance=euclidean_squared, max_iters=1000, execution_times=150)
-	bestmatches2 = kmeans.fit(csv_data)
+def apartat_clustering(filename="seeds.csv", csv_data_2=None):
+	inertias = []
+	silhouettes = {}
+	wss = []
+	k = 11
+	if csv_data_2 is None:
+		csv_data = read_csv(filename)
+	else:
+		csv_data = csv_data_2
+	for valor_k in tqdm(range(1, k)):
+		kmeans = Kmeans(k=valor_k, distance=euclidean_squared, max_iters=1000, execution_times=150)
+		bestmatches2 = kmeans.fit(csv_data)
 
-	inertias.append(kmeans.inertia_)
+		inertias.append(kmeans.inertia_)
 
-	# Cada cluster: Silhouette de cada punt agrupada per clusters, per fer el gràfic
-	silhouettes_of_all_points = [kmeans.silhouette(csv_data, x) for x in range(len(csv_data))]
-	silhouette = {}
-	for p_idx in range(len(csv_data)):
-		for cl_idx in range(len(kmeans.best_matches)):
-			if p_idx in kmeans.best_matches[cl_idx]:
-				if cl_idx not in silhouette.keys():
-					silhouette[cl_idx] = [silhouettes_of_all_points[p_idx]]
-				else:
-					silhouette[cl_idx].append(silhouettes_of_all_points[p_idx])
-	silhouettes[valor_k] = silhouette
+		# Cada cluster: Silhouette de cada punt agrupada per clusters, per fer el gràfic
+		silhouettes_of_all_points = [kmeans.silhouette(csv_data, x) for x in range(len(csv_data))]
+		silhouette = {}
+		for p_idx in range(len(csv_data)):
+			for cl_idx in range(len(kmeans.best_matches)):
+				if p_idx in kmeans.best_matches[cl_idx]:
+					if cl_idx not in silhouette.keys():
+						silhouette[cl_idx] = [silhouettes_of_all_points[p_idx]]
+					else:
+						silhouette[cl_idx].append(silhouettes_of_all_points[p_idx])
+			silhouettes[valor_k] = silhouette
 
-	wss.append(kmeans.intra_cluster_variation(csv_data))
+		wss.append(kmeans.intra_cluster_variation(csv_data))
 
-# print(silhouettes)
+	# print(silhouettes)
 
-# Alla on s'aplana la curva es el optim
-create_chart(k, wss)
+	# Alla on s'aplana la curva es el optim
+	create_chart(k, wss)
 
-# Crear tots els grafics de silhouettes per cada k
-avgs = create_silhouette_chart(k, silhouettes, chart=True)
+	# Crear tots els grafics de silhouettes per cada k
+	avgs = create_silhouette_chart(k, silhouettes, chart=True)
 
-# Crear un grafic de les average silhouettes, el maxim es el que ens interesse.
-plt.rcdefaults()
+	# Crear un grafic de les average silhouettes, el maxim es el que ens interesse.
+	plt.rcdefaults()
 
-num_ks = [i + 1 for i in range(len(avgs)) if i != 0]
-bar_ch = plt.bar(num_ks, avgs[1:])
-plt.title("Average silhouettes per numero de clusters")
+	num_ks = [i + 1 for i in range(len(avgs)) if i != 0]
+	bar_ch = plt.bar(num_ks, avgs[1:])
+	plt.title("Average silhouettes per numero de clusters")
 
-plt.show()
+	plt.show()
+
+# apartat_clustering()
