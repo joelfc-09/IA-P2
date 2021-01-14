@@ -298,5 +298,6 @@ def apartat_trobar_millor_k(k=11, filename="seeds.csv", csv_data_2=None):
 
 	plt.show()
 
-apartat_grafic_inertias()
-apartat_trobar_millor_k()
+if __name__ in "__main__":
+	apartat_grafic_inertias()
+	apartat_trobar_millor_k()
