@@ -75,12 +75,12 @@ def train_and_predict(kmeans, train_data, test_data):
 	return kmeans.predict(test_data.values.tolist())
 
 
-# km.apartat_clustering(csv_data_2=train_data_zeros.values.tolist()) # 3 elbow, 9 o 10 silhouette
-# km.apartat_clustering(csv_data_2=train_data_mean.values.tolist()) # 3 elbow, 8 o 9 silhouette
-# km.apartat_clustering(csv_data_2=train_data_median.values.tolist()) # 2 elbow, 4 silhouette
-# km.apartat_clustering(csv_data_2=train_data_most_frequent.values.tolist()) # 2 i 7
-# km.apartat_clustering(csv_data_2=train_data_uniform.values.tolist()) # 2 i 3 o 4
-# km.apartat_clustering(csv_data_2=train_data_distance.values.tolist()) # 2 i 5
+# km.apartat_trobar_millor_k(csv_data_2=train_data_zeros.values.tolist()) # 3 elbow, 9 o 10 silhouette
+# km.apartat_trobar_millor_k(csv_data_2=train_data_mean.values.tolist()) # 3 elbow, 8 o 9 silhouette
+# km.apartat_trobar_millor_k(csv_data_2=train_data_median.values.tolist()) # 2 elbow, 4 silhouette
+# km.apartat_trobar_millor_k(csv_data_2=train_data_most_frequent.values.tolist()) # 2 i 7
+# km.apartat_trobar_millor_k(csv_data_2=train_data_uniform.values.tolist()) # 2 i 3 o 4
+# km.apartat_trobar_millor_k(csv_data_2=train_data_distance.values.tolist()) # 2 i 5
 
 
 kmeans = km.Kmeans(3, distance=km.euclidean_squared, max_iters=5000, execution_times=100)

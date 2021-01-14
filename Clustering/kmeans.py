@@ -26,15 +26,16 @@ def read_csv(csv_filename):
 	return rows
 
 
-def create_chart(ks, data):
+def create_chart(ks, data, title="Intra cluster variation sum by cluster number", line=True):
 	plt.rcdefaults()
 
 	num_ks = [i for i in range(1, ks)]
 	bar_ch = plt.bar(num_ks, data)
-	plt.plot(num_ks, data, 'r-')
+	if line:
+		plt.plot(num_ks, data, 'r-')
 
 	# Intra cluster variation (WSS):
-	plt.title("Intra cluster variation sum by cluster number")
+	plt.title(title)
 
 	plt.show()
 
@@ -88,7 +89,7 @@ class Kmeans:
 	def _average_points(self, points_in_cl):
 		avgs = []
 		for i in range(len(points_in_cl[0])):
-			avgs.append(sum([p[i] for p in points_in_cl]) / float(len(points)))
+			avgs.append(sum([p[i] for p in points_in_cl]) / float(len(points_in_cl)))
 		return avgs
 
 	# matches es una llista on per cada cluster hi ha els ids dels punts que li toquen
@@ -237,30 +238,7 @@ def create_silhouette_chart(ks, silhouettes, chart=True):
 
 # plt.show()
 
-points = [
-	[1, 1],
-	[2, 1],
-	[4, 3],
-	[5, 4]
-]
-
-points2 = [
-	[2, 4],
-	[3, 5],
-	[3, 2],
-	[5, 2],
-	[5, 4],
-	[7, 3],
-	[7, 8],
-	[8, 4],
-]
-
-centroids = [
-	[1, 1],
-	[2, 1]
-]
-
-def apartat_clustering(filename="seeds.csv", csv_data_2=None):
+def calcular_dades(filename="seeds.csv", csv_data_2=None):
 	inertias = []
 	silhouettes = {}
 	wss = []
@@ -289,7 +267,21 @@ def apartat_clustering(filename="seeds.csv", csv_data_2=None):
 
 		wss.append(kmeans.intra_cluster_variation(csv_data))
 
-	# print(silhouettes)
+	return inertias, wss, silhouettes
+
+def apartat_grafic_inertias(k=11, filename="seeds.csv", csv_data_2=None):
+	if csv_data_2 is None:
+		inertias, wss, silhouettes = calcular_dades(filename=filename)
+	else:
+		inertias, wss, silhouettes = calcular_dades(csv_data_2=csv_data_2)
+
+	create_chart(k, inertias, title="Inertias segons el valor de k", line=False)
+
+def apartat_trobar_millor_k(k=11, filename="seeds.csv", csv_data_2=None):
+	if csv_data_2 is None:
+		inertias, wss, silhouettes = calcular_dades(filename=filename)
+	else:
+		inertias, wss, silhouettes = calcular_dades(csv_data_2=csv_data_2)
 
 	# Alla on s'aplana la curva es el optim
 	create_chart(k, wss)
@@ -306,4 +298,5 @@ def apartat_clustering(filename="seeds.csv", csv_data_2=None):
 
 	plt.show()
 
-apartat_clustering()
+apartat_grafic_inertias()
+apartat_trobar_millor_k()
