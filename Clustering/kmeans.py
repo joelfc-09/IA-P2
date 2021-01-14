@@ -31,6 +31,7 @@ def create_chart(ks, data):
 
 	num_ks = [i for i in range(1, ks)]
 	bar_ch = plt.bar(num_ks, data)
+	plt.plot(num_ks, data, 'r-')
 
 	# Intra cluster variation (WSS):
 	plt.title("Intra cluster variation sum by cluster number")
@@ -224,6 +225,7 @@ def create_silhouette_chart(ks, silhouettes, chart=True):
 		x_pos_total = [x for x in range(len(y_dades_total))]
 		if chart:
 			plt.bar(x_pos_total, y_dades_total)
+			plt.plot(x_pos_total, [sum(y_dades_total) / len(y_dades_total)] * len(x_pos_total), 'r-')
 			plt.ylabel("Silhouette dels punts")
 			titol = "Total de clusters: " + str(k_total) + " Average silhouette: " + str(
 			sum(y_dades_total) / len(y_dades_total))
@@ -304,4 +306,4 @@ def apartat_clustering(filename="seeds.csv", csv_data_2=None):
 
 	plt.show()
 
-# apartat_clustering()
+apartat_clustering()
