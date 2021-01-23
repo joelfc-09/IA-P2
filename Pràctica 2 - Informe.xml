@@ -1,0 +1,1551 @@
+<?xml version="1.0"?>
+<root ptr="0x407dc00" id="4" symbol="11SwRootFrame" lower="5">
+ <sfxViewShells>
+  <SwView>
+   <SfxViewShell ptr="0x3a8d870" id="1"/>
+   <SwCursorShell>
+    <SwViewShell/>
+    <m_pCurrentCursor>
+     <SwPaM>
+      <point>
+       <SwPosition nNode="54" nContent="0"/>
+      </point>
+     </SwPaM>
+    </m_pCurrentCursor>
+   </SwCursorShell>
+  </SwView>
+ </sfxViewShells>
+ <infos>
+  <bounds left="284" top="284" width="18669" height="102448" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+  <prtBounds left="0" top="0" width="18669" height="102448"/>
+ </infos>
+ <page ptr="0x408bb10" id="5" symbol="11SwPageFrame" next="10" upper="4" lower="6">
+  <page_status ValidFlyLayout="false" ValidFlyContent="true" ValidFlyInCnt="true" ValidLayout="true" ValidContent="false"/>
+  <infos>
+   <bounds left="7047" top="284" width="11906" height="16838" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1701" top="1417" width="8504" height="14004"/>
+  </infos>
+  <body ptr="0x404db00" id="6" symbol="11SwBodyFrame" upper="5" lower="7">
+   <infos>
+    <bounds left="8748" top="1701" width="8504" height="14004" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="8504" height="14004"/>
+   </infos>
+   <txt ptr="0x3c83240" id="7" symbol="11SwTextFrame" next="8" upper="6" txtNodeIndex="54" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="1701" width="8504" height="269" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="8504" height="269"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x4089f80" id="66" symbol="19SwFlyAtContentFrame" lower="67">
+      <infos>
+       <bounds left="12717" top="1709" width="4535" height="1313" mbFixSize="true" mbValidPos="false" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="4535" height="1313"/>
+      </infos>
+      <notxt ptr="0x3a3e520" id="67" symbol="13SwNoTextFrame" upper="66">
+       <infos>
+        <bounds left="12717" top="1709" width="4535" height="1313" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="4535" height="1313"/>
+       </infos>
+      </notxt>
+     </fly>
+     <SwAnchoredDrawObject ptr="0x3d2fc10">
+      <bounds left="7522" top="1515" width="3463" height="14377"/>
+      <SdrObjGroup ptr="0x2e7c080">
+       <SdrObject ptr="0x2e7c080" symbol="11SdrObjGroup" name="Grupo 2" title="" description="" nOrdNum="0" aOutRect="7522, 1515, 3462, 14376"/>
+       <SdrObjList ptr="0x2e7c168" symbol="11SdrObjGroup">
+        <SdrObject ptr="0x3b473b0" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="0" aOutRect="7523, 1515, 300, 14376">
+         <DefaultProperties>
+          <BaseProperties/>
+          <SfxItemSet>
+           <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+           <SfxInt32Item whichId="1002" value="20"/>
+           <SfxPoolItem whichId="1011" typeName="14XLineJointItem" presentation="L"/>
+           <SfxPoolItem whichId="1012" typeName="12XLineCapItem" presentation="L"/>
+           <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+           <XFillColorItem whichId="1015" value="44546a"/>
+           <SfxInt32Item whichId="1065" value="14235"/>
+           <SfxBoolItem whichId="1066" value="off"/>
+           <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+           <SfxInt32Item whichId="1068" value="142"/>
+           <SfxInt32Item whichId="1069" value="142"/>
+           <SfxInt32Item whichId="1070" value="71"/>
+           <SfxInt32Item whichId="1071" value="71"/>
+           <SdrTextVertAdjustItem whichId="1072" value="0"/>
+           <SfxInt32Item whichId="1074" value="17"/>
+           <SfxBoolItem whichId="1088" value="on"/>
+           <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+           <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+          </SfxItemSet>
+         </DefaultProperties>
+        </SdrObject>
+        <SdrObject ptr="0x3e2c300" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="1" aOutRect="7522, 3824, 3462, 864">
+         <DefaultProperties>
+          <BaseProperties/>
+          <SfxItemSet>
+           <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+           <SfxInt32Item whichId="1002" value="20"/>
+           <SfxPoolItem whichId="1011" typeName="14XLineJointItem" presentation="L"/>
+           <SfxPoolItem whichId="1012" typeName="12XLineCapItem" presentation="L"/>
+           <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+           <XFillColorItem whichId="1015" value="4472c4"/>
+           <SfxInt32Item whichId="1065" value="864"/>
+           <SfxBoolItem whichId="1066" value="off"/>
+           <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+           <SfxInt32Item whichId="1068" value="142"/>
+           <SfxInt32Item whichId="1069" value="288"/>
+           <SfxInt32Item whichId="1070" value="0"/>
+           <SfxInt32Item whichId="1071" value="0"/>
+           <SdrTextVertAdjustItem whichId="1072" value="1"/>
+           <SfxInt32Item whichId="1074" value="2816"/>
+           <SfxBoolItem whichId="1088" value="on"/>
+           <SfxUInt16Item whichId="1159" value="0"/>
+           <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+           <SfxBoolItem whichId="4013" value="TRUE"/>
+           <SfxPoolItem whichId="4015" typeName="12SfxInt16Item" presentation="-"/>
+           <SvxULSpaceItem whichId="4018" nUpper="0" nLower="0" bContext="false" nPropUpper="100" nPropLower="100"/>
+           <SfxPoolItem whichId="4019" typeName="18SvxLineSpacingItem" presentation="S"/>
+           <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="A"/>
+          </SfxItemSet>
+         </DefaultProperties>
+         <OutlinerParaObject ptr="0x3aa4cd0">
+          <EditTextObject>
+           <ContentInfo style="">
+            <text>24/01/2021</text>
+            <SfxItemSet>
+             <SfxBoolItem whichId="4013" value="TRUE"/>
+             <SfxPoolItem whichId="4015" typeName="12SfxInt16Item" presentation="-"/>
+             <SvxULSpaceItem whichId="4018" nUpper="0" nLower="0" bContext="false" nPropUpper="100" nPropLower="100"/>
+             <SfxPoolItem whichId="4019" typeName="18SvxLineSpacingItem" presentation="S"/>
+             <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="A"/>
+            </SfxItemSet>
+            <attribs start="0" end="10">
+             <SfxPoolItem whichId="4036" typeName="14SvxKerningItem" presentation="K"/>
+            </attribs>
+            <attribs start="0" end="10">
+             <SfxPoolItem whichId="4054" typeName="14SvxCaseMapItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="10">
+             <SvxPostureItem whichId="4048" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="10">
+             <SvxPostureItem whichId="4047" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="10">
+             <SvxWeightItem whichId="4046" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="10">
+             <SvxWeightItem whichId="4045" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="10">
+             <SvxFontHeightItem whichId="4044" height="280" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="10">
+             <SvxFontHeightItem whichId="4043" height="280" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="10">
+             <SvxFontItem whichId="4041" familyName="Calibri" styleName="" family="0" pitch="0" textEncoding="76"/>
+            </attribs>
+            <attribs start="0" end="10">
+             <SvxColorItem whichId="4024" value="White"/>
+            </attribs>
+            <attribs start="0" end="10">
+             <SfxPoolItem whichId="4034" typeName="17SvxEscapementItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="10">
+             <SvxPostureItem whichId="4031" value="0" presentation="Not Italic"/>
+            </attribs>
+            <attribs start="0" end="10">
+             <SfxPoolItem whichId="4030" typeName="17SvxCrossedOutItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="10">
+             <SfxPoolItem whichId="4029" typeName="16SvxUnderlineItem" presentation="N"/>
+            </attribs>
+            <attribs start="0" end="10">
+             <SvxWeightItem whichId="4028" value="5" presentation="normal"/>
+            </attribs>
+            <attribs start="0" end="10">
+             <SvxFontHeightItem whichId="4026" height="280" prop="100" propUnit="13"/>
+            </attribs>
+            <attribs start="0" end="10">
+             <SvxFontItem whichId="4025" familyName="Calibri" styleName="" family="0" pitch="0" textEncoding="76"/>
+            </attribs>
+           </ContentInfo>
+          </EditTextObject>
+          <Paragraph nDepth="-1" mnNumberingStartValue="-1" mbParaIsNumberingRestart="0"/>
+         </OutlinerParaObject>
+        </SdrObject>
+        <SdrObjGroup ptr="0x3dd02a0">
+         <SdrObject ptr="0x3dd02a0" symbol="11SdrObjGroup" name="" title="" description="" nOrdNum="2" aOutRect="7642, 8148, 3248, 7737"/>
+         <SdrObjList ptr="0x3dd0388" symbol="11SdrObjGroup">
+          <SdrObjGroup ptr="0x3e3f9f0">
+           <SdrObject ptr="0x3e3f9f0" symbol="11SdrObjGroup" name="" title="" description="" nOrdNum="0" aOutRect="7791, 8148, 2606, 7737"/>
+           <SdrObjList ptr="0x3e3fad8" symbol="11SdrObjGroup">
+            <SdrObject ptr="0x3e28d20" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="0" aOutRect="8358, 13122, 482, 1728">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <SfxInt32Item whichId="1065" value="1584"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="196"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3e622e0" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="1" aOutRect="8868, 14830, 455, 1055">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <SfxInt32Item whichId="1065" value="911"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="169"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3b85460" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="2" aOutRect="7791, 8148, 548, 5006">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <SfxInt32Item whichId="1065" value="4862"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="262"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3b914e0" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="3" aOutRect="8288, 9759, 179, 3361">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <SfxInt32Item whichId="1065" value="3217"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="0"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3bb5400" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="4" aOutRect="8342, 13158, 608, 2471">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <SfxInt32Item whichId="1065" value="2327"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="322"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3bb7830" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="5" aOutRect="8986, 15615, 127, 268">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <SfxInt32Item whichId="1065" value="124"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="0"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3bc8290" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="6" aOutRect="8323, 12965, 56, 363">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <SfxInt32Item whichId="1065" value="219"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="0"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3bc9460" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="7" aOutRect="8843, 11812, 1554, 3015">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <SfxInt32Item whichId="1065" value="2871"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="1268"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3c013f0" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="8" aOutRect="8844, 14852, 139, 760">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <SfxInt32Item whichId="1065" value="616"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="0"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3bb62a0" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="9" aOutRect="8955, 15632, 119, 253">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <SfxInt32Item whichId="1065" value="109"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="0"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3e71ac0" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="10" aOutRect="8844, 14762, 25, 162">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <SfxInt32Item whichId="1065" value="18"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="0"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3c279d0" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="11" aOutRect="8903, 15424, 174, 461">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <SfxInt32Item whichId="1065" value="317"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="0"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+           </SdrObjList>
+          </SdrObjGroup>
+          <SdrObjGroup ptr="0x3c39300">
+           <SdrObject ptr="0x3c39300" symbol="11SdrObjGroup" name="" title="" description="" nOrdNum="1" aOutRect="7642, 9674, 3248, 6211"/>
+           <SdrObjList ptr="0x3c393e8" symbol="11SdrObjGroup">
+            <SdrObject ptr="0x3c3a1e0" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="0" aOutRect="7783, 11671, 737, 2645">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <SfxUInt16Item whichId="1010" value="80"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <XFillTransparenceItem whichId="1019" value="80"/>
+               <SfxInt32Item whichId="1065" value="2501"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="451"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3c4aa90" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="1" aOutRect="8564, 14271, 692, 1612">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <SfxUInt16Item whichId="1010" value="80"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <XFillTransparenceItem whichId="1019" value="80"/>
+               <SfxInt32Item whichId="1065" value="1468"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="406"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3c79e60" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="2" aOutRect="7642, 11007, 115, 708">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <SfxUInt16Item whichId="1010" value="80"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <XFillTransparenceItem whichId="1019" value="80"/>
+               <SfxInt32Item whichId="1065" value="564"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="0"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3c7aa00" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="3" aOutRect="7760, 11718, 931, 3779">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <SfxUInt16Item whichId="1010" value="80"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <XFillTransparenceItem whichId="1019" value="80"/>
+               <SfxInt32Item whichId="1065" value="3635"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="645"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3ca0ef0" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="4" aOutRect="8741, 15470, 191, 414">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <SfxUInt16Item whichId="1010" value="80"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <XFillTransparenceItem whichId="1019" value="80"/>
+               <SfxInt32Item whichId="1065" value="270"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="0"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3c4b220" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="5" aOutRect="7736, 11430, 85, 555">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <SfxUInt16Item whichId="1010" value="80"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <XFillTransparenceItem whichId="1019" value="80"/>
+               <SfxInt32Item whichId="1065" value="411"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="0"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3cc6340" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="6" aOutRect="8523, 9674, 2367, 4595">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <SfxUInt16Item whichId="1010" value="80"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <XFillTransparenceItem whichId="1019" value="80"/>
+               <SfxInt32Item whichId="1065" value="4451"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="2081"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3c4c9b0" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="7" aOutRect="8523, 14318, 215, 1148">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <SfxUInt16Item whichId="1010" value="80"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <XFillTransparenceItem whichId="1019" value="80"/>
+               <SfxInt32Item whichId="1065" value="1004"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="0"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3cebb40" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="8" aOutRect="8694, 15500, 179, 385">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <SfxUInt16Item whichId="1010" value="80"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <XFillTransparenceItem whichId="1019" value="80"/>
+               <SfxInt32Item whichId="1065" value="241"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="0"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3c13fc0" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="9" aOutRect="8522, 14172, 38, 249">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <SfxUInt16Item whichId="1010" value="80"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <XFillTransparenceItem whichId="1019" value="80"/>
+               <SfxInt32Item whichId="1065" value="106"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="0"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+            <SdrObject ptr="0x3e76f20" symbol="17SdrObjCustomShape" name="" title="" description="" nOrdNum="10" aOutRect="8612, 15176, 267, 708">
+             <DefaultProperties>
+              <BaseProperties/>
+              <SfxItemSet>
+               <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="C"/>
+               <SfxInt32Item whichId="1002" value="0"/>
+               <NameOrIndex whichId="1003" isIndex="false" name="" index="-1"/>
+               <SfxUInt16Item whichId="1010" value="80"/>
+               <XFillStyleItem whichId="1014" value="1" presentation="Continuous"/>
+               <XFillColorItem whichId="1015" value="44546a"/>
+               <XFillTransparenceItem whichId="1019" value="80"/>
+               <SfxInt32Item whichId="1065" value="564"/>
+               <SfxBoolItem whichId="1066" value="off"/>
+               <SfxPoolItem whichId="1067" typeName="24SdrTextFitToSizeTypeItem" presentation="F"/>
+               <SfxInt32Item whichId="1068" value="142"/>
+               <SfxInt32Item whichId="1069" value="142"/>
+               <SfxInt32Item whichId="1070" value="71"/>
+               <SfxInt32Item whichId="1071" value="71"/>
+               <SdrTextVertAdjustItem whichId="1072" value="0"/>
+               <SfxInt32Item whichId="1074" value="0"/>
+               <SfxBoolItem whichId="1088" value="on"/>
+               <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+               <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+              </SfxItemSet>
+             </DefaultProperties>
+            </SdrObject>
+           </SdrObjList>
+          </SdrObjGroup>
+         </SdrObjList>
+        </SdrObjGroup>
+       </SdrObjList>
+      </SdrObjGroup>
+     </SwAnchoredDrawObject>
+     <fly ptr="0x3909f60" id="62" symbol="19SwFlyAtContentFrame" lower="63">
+      <infos>
+       <bounds left="12047" top="15169" width="5481" height="878" mbFixSize="false" mbValidPos="false" mbValidSize="false" mbValidPrtArea="false"/>
+       <prtBounds left="0" top="0" width="5481" height="878"/>
+      </infos>
+      <txt ptr="0x3ac7da0" id="63" symbol="11SwTextFrame" next="64" upper="62" txtNodeIndex="6" WritingMode="Horizontal">
+       <infos>
+        <bounds left="12047" top="15169" width="5481" height="317" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="5481" height="317"/>
+       </infos>
+Joel Aumedes Serrano (48051307Y)       <Text nLength="32" nType="PortionType::Para" nHeight="317" nWidth="3745" Portion="Joel Aumedes Serrano (48051307Y)"/>
+       <LineBreak nWidth="3745" Line="Joel Aumedes Serrano (48051307Y)"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x3b17e00" id="64" symbol="11SwTextFrame" next="65" prev="63" upper="62" txtNodeIndex="7" WritingMode="Horizontal">
+       <infos>
+        <bounds left="12047" top="15486" width="5481" height="317" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="5481" height="317"/>
+       </infos>
+Joel Farré Cortés (78103400T)       <Text nLength="29" nType="PortionType::Para" nHeight="317" nWidth="3164" Portion="Joel Farr&#xE9; Cort&#xE9;s (78103400T)"/>
+       <LineBreak nWidth="3164" Line="Joel Farr&#xE9; Cort&#xE9;s (78103400T)"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x3b08950" id="65" symbol="11SwTextFrame" prev="64" upper="62" txtNodeIndex="8" WritingMode="Horizontal">
+       <infos>
+        <bounds left="12047" top="15803" width="5481" height="244" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="5481" height="244"/>
+       </infos>
+Escola politècnica superior – universitat de lleida       <Text nLength="51" nType="PortionType::Para" nHeight="244" nWidth="4750" Portion="Escola polit&#xE8;cnica superior &#x2013; universitat de lleida"/>
+       <LineBreak nWidth="4750" Line="Escola polit&#xE8;cnica superior &#x2013; universitat de lleida"/>
+       <Finish/>
+      </txt>
+     </fly>
+     <SwAnchoredDrawObject ptr="0x3cdb1a0">
+      <bounds left="12046" top="15169" width="5488" height="877"/>
+      <SdrObject ptr="0x3c15ea0" symbol="17SdrObjCustomShape" name="Cuadro de texto 32" title="" description="" nOrdNum="2" aOutRect="12046, 15169, 5487, 876">
+       <DefaultProperties>
+        <BaseProperties/>
+        <SfxItemSet>
+         <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+         <SfxInt32Item whichId="1002" value="10"/>
+         <XFillStyleItem whichId="1014" value="0" presentation="None"/>
+         <SfxInt32Item whichId="1065" value="0"/>
+         <SfxBoolItem whichId="1066" value="on"/>
+         <SfxInt32Item whichId="1068" value="0"/>
+         <SfxInt32Item whichId="1069" value="0"/>
+         <SfxInt32Item whichId="1070" value="0"/>
+         <SfxInt32Item whichId="1071" value="0"/>
+         <SdrTextVertAdjustItem whichId="1072" value="2"/>
+         <SfxInt32Item whichId="1074" value="0"/>
+         <SfxBoolItem whichId="1088" value="on"/>
+         <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+         <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+         <SvxColorItem whichId="4024" value="Black"/>
+         <SvxFontHeightItem whichId="4026" height="360" prop="100" propUnit="13"/>
+        </SfxItemSet>
+       </DefaultProperties>
+      </SdrObject>
+     </SwAnchoredDrawObject>
+    </anchored>
+    <Text nLength="0" nType="PortionType::Para" nHeight="269"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x3ca4290" id="8" symbol="11SwTextFrame" prev="7" upper="6" txtNodeIndex="55" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="1970" width="8504" height="269" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="8504" height="269"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x3e89050" id="68" symbol="19SwFlyAtContentFrame" lower="69">
+      <infos>
+       <bounds left="11759" top="4266" width="5481" height="1398" mbFixSize="false" mbValidPos="false" mbValidSize="false" mbValidPrtArea="false"/>
+       <prtBounds left="0" top="0" width="5481" height="1398"/>
+      </infos>
+      <txt ptr="0x3a9d200" id="69" symbol="11SwTextFrame" next="70" upper="68" txtNodeIndex="14" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11759" top="4266" width="5481" height="838" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="5481" height="838"/>
+       </infos>
+Pràctica 2       <Text nLength="10" nType="PortionType::Para" nHeight="838" nWidth="3574" Portion="Pr&#xE0;ctica 2"/>
+       <LineBreak nWidth="3574" Line="Pr&#xE0;ctica 2"/>
+       <Finish/>
+      </txt>
+      <txt ptr="0x40b51f0" id="70" symbol="11SwTextFrame" prev="69" upper="68" txtNodeIndex="15" WritingMode="Horizontal">
+       <infos>
+        <bounds left="11759" top="5104" width="5481" height="560" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="120" width="5481" height="440"/>
+       </infos>
+Grau en Enginyeria Informàtica       <Text nLength="30" nType="PortionType::Para" nHeight="440" nWidth="4546" Portion="Grau en Enginyeria Inform&#xE0;tica"/>
+       <LineBreak nWidth="4546" Line="Grau en Enginyeria Inform&#xE0;tica"/>
+       <Finish/>
+      </txt>
+     </fly>
+     <SwAnchoredDrawObject ptr="0x3c09e10">
+      <bounds left="11758" top="4266" width="5488" height="1397"/>
+      <SdrObject ptr="0x3b3ada0" symbol="17SdrObjCustomShape" name="Cuadro de texto 1" title="" description="" nOrdNum="1" aOutRect="11758, 4266, 5487, 1396">
+       <DefaultProperties>
+        <BaseProperties/>
+        <SfxItemSet>
+         <SfxPoolItem whichId="1000" typeName="14XLineStyleItem" presentation="N"/>
+         <SfxInt32Item whichId="1002" value="10"/>
+         <XFillStyleItem whichId="1014" value="0" presentation="None"/>
+         <SfxInt32Item whichId="1065" value="0"/>
+         <SfxBoolItem whichId="1066" value="on"/>
+         <SfxInt32Item whichId="1068" value="0"/>
+         <SfxInt32Item whichId="1069" value="0"/>
+         <SfxInt32Item whichId="1070" value="0"/>
+         <SfxInt32Item whichId="1071" value="0"/>
+         <SdrTextVertAdjustItem whichId="1072" value="0"/>
+         <SfxInt32Item whichId="1074" value="0"/>
+         <SfxBoolItem whichId="1088" value="on"/>
+         <SfxPoolItem whichId="1229" typeName="26SdrCustomShapeGeometryItem" presentation=" "/>
+         <SfxPoolItem whichId="4020" typeName="13SvxAdjustItem" presentation="C"/>
+         <SvxColorItem whichId="4024" value="Black"/>
+         <SvxFontHeightItem whichId="4026" height="360" prop="100" propUnit="13"/>
+        </SfxItemSet>
+       </DefaultProperties>
+      </SdrObject>
+     </SwAnchoredDrawObject>
+    </anchored>
+    <Text nLength="0" nType="PortionType::Para" nHeight="269"/>
+    <LineBreak/>
+    <Finish/>
+   </txt>
+  </body>
+ </page>
+ <page ptr="0x3e4dab0" id="10" symbol="11SwPageFrame" next="24" prev="5" upper="4" lower="11">
+  <page_status ValidFlyLayout="true" ValidFlyContent="true" ValidFlyInCnt="true" ValidLayout="true" ValidContent="false"/>
+  <infos>
+   <bounds left="7047" top="17406" width="11906" height="16838" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1701" top="1417" width="8504" height="14004"/>
+  </infos>
+  <body ptr="0x3bf92c0" id="11" symbol="11SwBodyFrame" upper="10" lower="9">
+   <infos>
+    <bounds left="8748" top="18823" width="8504" height="14004" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="8504" height="14004"/>
+   </infos>
+   <txt ptr="0x40a75f0" id="9" symbol="11SwTextFrame" next="12" upper="11" txtNodeIndex="56" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="18823" width="8504" height="654" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="240" width="8504" height="414"/>
+    </infos>
+Introducció    <Text nLength="11" nType="PortionType::Para" nHeight="414" nWidth="1960" Portion="Introducci&#xF3;"/>
+    <LineBreak nWidth="1960" Line="Introducci&#xF3;"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x40703a0" id="12" symbol="11SwTextFrame" next="13" prev="9" upper="11" txtNodeIndex="57" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="19477" width="8504" height="731" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="153" width="8504" height="578"/>
+    </infos>
+En aquesta pràctica hem implementat diferents algoritmes d’aprenentatge supervisat i no supervisat vists a classe.    <Text nLength="87" nType="PortionType::Text" nHeight="269" nWidth="8035" Portion="En aquesta pr&#xE0;ctica hem implementat diferents algoritmes d&#x2019;aprenentatge supervisat i no"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <Special nLength="0" nType="PortionType::Margin" rText=""/>
+    <LineBreak nWidth="8505" Line="En aquesta pr&#xE0;ctica hem implementat diferents algoritmes d&#x2019;aprenentatge supervisat i no "/>
+    <Text nLength="26" nType="PortionType::Lay" nHeight="269" nWidth="2154" Portion="supervisat vists a classe."/>
+    <LineBreak nWidth="2154" Line="supervisat vists a classe."/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x40a6390" id="13" symbol="11SwTextFrame" next="14" prev="12" upper="11" txtNodeIndex="58" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="20208" width="8504" height="694" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="280" width="8504" height="414"/>
+    </infos>
+Arbres de decisió    <Text nLength="17" nType="PortionType::Para" nHeight="414" nWidth="3021" Portion="Arbres de decisi&#xF3;"/>
+    <LineBreak nWidth="3021" Line="Arbres de decisi&#xF3;"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x40af910" id="14" symbol="11SwTextFrame" next="15" prev="13" upper="11" txtNodeIndex="59" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="20902" width="8504" height="731" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="153" width="8504" height="578"/>
+    </infos>
+Per a provar la nostra implementació dels arbres de decisió amb un dataset més extens, hem creat un nou dataset utilitzant un script que genera registres de forma aleatòria.     <Text nLength="67" nType="PortionType::Text" nHeight="269" nWidth="6067" Portion="Per a provar la nostra implementaci&#xF3; dels arbres de decisi&#xF3; amb un "/>
+    <Text nLength="7" nType="PortionType::Text" nHeight="269" nWidth="678" Portion="dataset"/>
+    <Text nLength="16" nType="PortionType::Text" nHeight="269" nWidth="1566" Portion=" m&#xE9;s extens, hem"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <Special nLength="0" nType="PortionType::Margin" rText=""/>
+    <LineBreak nWidth="8505" Line="Per a provar la nostra implementaci&#xF3; dels arbres de decisi&#xF3; amb un dataset m&#xE9;s extens, hem "/>
+    <Text nLength="13" nType="PortionType::Text" nHeight="269" nWidth="1186" Portion="creat un nou "/>
+    <Text nLength="7" nType="PortionType::Text" nHeight="269" nWidth="678" Portion="dataset"/>
+    <Text nLength="63" nType="PortionType::Text" nHeight="269" nWidth="5365" Portion=" utilitzant un script que genera registres de forma aleat&#xF2;ria. "/>
+    <LineBreak nWidth="7229" Line="creat un nou dataset utilitzant un script que genera registres de forma aleat&#xF2;ria. "/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x40aa760" id="15" symbol="11SwTextFrame" next="16" prev="14" upper="11" txtNodeIndex="60" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="21633" width="8504" height="609" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="240" width="8504" height="369"/>
+    </infos>
+Construcció de l’arbre de forma recursiva    <Text nLength="41" nType="PortionType::Para" nHeight="369" nWidth="6349" Portion="Construcci&#xF3; de l&#x2019;arbre de forma recursiva"/>
+    <LineBreak nWidth="6349" Line="Construcci&#xF3; de l&#x2019;arbre de forma recursiva"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x3d1a730" id="16" symbol="11SwTextFrame" next="17" prev="15" upper="11" txtNodeIndex="61" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="22242" width="8504" height="1036" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="149" width="8504" height="887"/>
+    </infos>
+Per a construir l’arbre de forma recursiva simplement busquem la millor partició possible i després construïm el decisionnode  cridant a la mateixa funció de forma recursiva a la branca True i a la branca False.    <Text nLength="91" nType="PortionType::Text" nHeight="269" nWidth="8054" Portion="Per a construir l&#x2019;arbre de forma recursiva simplement busquem la millor partici&#xF3; possible i"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="8054" Line="Per a construir l&#x2019;arbre de forma recursiva simplement busquem la millor partici&#xF3; possible i "/>
+    <Text nLength="21" nType="PortionType::Text" nHeight="269" nWidth="1911" Portion="despr&#xE9;s constru&#xEF;m el "/>
+    <Text nLength="13" nType="PortionType::Text" nHeight="269" nWidth="1216" Portion="decisionnode "/>
+    <Text nLength="59" nType="PortionType::Text" nHeight="269" nWidth="5163" Portion=" cridant a la mateixa funci&#xF3; de forma recursiva a la branca"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="8290" Line="despr&#xE9;s constru&#xEF;m el decisionnode  cridant a la mateixa funci&#xF3; de forma recursiva a la branca "/>
+    <Text nLength="4" nType="PortionType::Text" nHeight="269" nWidth="401" Portion="True"/>
+    <Text nLength="15" nType="PortionType::Text" nHeight="269" nWidth="1172" Portion=" i a la branca "/>
+    <Text nLength="5" nType="PortionType::Text" nHeight="269" nWidth="456" Portion="False"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="269" nWidth="56" Portion="."/>
+    <LineBreak nWidth="2085" Line="True i a la branca False."/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x3cf15f0" id="17" symbol="11SwTextFrame" next="18" prev="16" upper="11" txtNodeIndex="62" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="23278" width="8504" height="1685" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="1505"/>
+    </infos>
+Per a trobar la millor partició, calculem el guany que ens generaria les preguntes possible que en cas de que les dades siguin arbitràries, fem una pregunta per a cada valor possible i en cas de que siguin numèriques, preguntem per una sèrie de números des del mínim trobat fins al màxim, amb una separació entre els números que es passa per paràmetre i que per defecte es 0,1.    <Text nLength="95" nType="PortionType::Text" nHeight="269" nWidth="8344" Portion="Per a trobar la millor partici&#xF3;, calculem el guany que ens generaria les preguntes possible que"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="8344" Line="Per a trobar la millor partici&#xF3;, calculem el guany que ens generaria les preguntes possible que "/>
+    <Text nLength="95" nType="PortionType::Text" nHeight="269" nWidth="8320" Portion="en cas de que les dades siguin arbitr&#xE0;ries, fem una pregunta per a cada valor possible i en cas"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="8320" Line="en cas de que les dades siguin arbitr&#xE0;ries, fem una pregunta per a cada valor possible i en cas "/>
+    <Text nLength="26" nType="PortionType::Text" nHeight="269" nWidth="2412" Portion="de que siguin num&#xE8;riques, "/>
+    <Text nLength="63" nType="PortionType::Text" nHeight="269" nWidth="5823" Portion="preguntem per una s&#xE8;rie de n&#xFA;meros des del m&#xED;nim trobat fins al"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="8235" Line="de que siguin num&#xE8;riques, preguntem per una s&#xE8;rie de n&#xFA;meros des del m&#xED;nim trobat fins al "/>
+    <Text nLength="90" nType="PortionType::Text" nHeight="269" nWidth="8421" Portion="m&#xE0;xim, amb una separaci&#xF3; entre els n&#xFA;meros que es passa per par&#xE0;metre i que per defecte es"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="8421" Line="m&#xE0;xim, amb una separaci&#xF3; entre els n&#xFA;meros que es passa per par&#xE0;metre i que per defecte es "/>
+    <Text nLength="4" nType="PortionType::Lay" nHeight="269" nWidth="333" Portion="0,1."/>
+    <LineBreak nWidth="333" Line="0,1."/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x3ad03d0" id="18" symbol="11SwTextFrame" next="19" prev="17" upper="11" txtNodeIndex="63" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="24963" width="8504" height="609" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="240" width="8504" height="369"/>
+    </infos>
+Construcció del arbre de forma iterativa    <Text nLength="40" nType="PortionType::Para" nHeight="369" nWidth="6064" Portion="Construcci&#xF3; del arbre de forma iterativa"/>
+    <LineBreak nWidth="6064" Line="Construcci&#xF3; del arbre de forma iterativa"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x3d09ea0" id="19" symbol="11SwTextFrame" next="20" prev="18" upper="11" txtNodeIndex="64" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="25572" width="8504" height="2890" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="149" width="8504" height="2741"/>
+    </infos>
+Per a la constricció de l’arbre de forma iterativa primer que tot ens guardem una referència al node arrel. Aleshores utilitzem una llista on guardem els nodes que falta particionar, cada node guardarà els registres que ha de particionar al seu atribut results mentre no sigui processat. Per a processar un node trobem la millor partició utilitzant la mateixa funció que de forma recursiva, aleshores es poden donar dos casos. Si el millor guany es més gran que el paràmetre beta, vol dir que aquest node no és una fulla, per tant l’hi modifiquem els atributs necessaris i l’hi guardem una referència als seus nodes fills que encara no han sigut processats. Aquests nodes fills s’afegeixen a la llista nodes per a que siguin processats. En canvi, si el millor guany no és més gran que beta vol dir que el node es una fulla i per tant no creem més nodes.    <Text nLength="95" nType="PortionType::Text" nHeight="269" nWidth="8371" Portion="Per a la constricci&#xF3; de l&#x2019;arbre de forma iterativa primer que tot ens guardem una refer&#xE8;ncia al"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="8371" Line="Per a la constricci&#xF3; de l&#x2019;arbre de forma iterativa primer que tot ens guardem una refer&#xE8;ncia al "/>
+    <Text nLength="91" nType="PortionType::Text" nHeight="269" nWidth="8009" Portion="node arrel. Aleshores utilitzem una llista on guardem els nodes que falta particionar, cada"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="8009" Line="node arrel. Aleshores utilitzem una llista on guardem els nodes que falta particionar, cada "/>
+    <Text nLength="65" nType="PortionType::Text" nHeight="269" nWidth="5668" Portion="node guardar&#xE0; els registres que ha de particionar al seu atribut "/>
+    <Text nLength="7" nType="PortionType::Text" nHeight="269" nWidth="589" Portion="results"/>
+    <Text nLength="16" nType="PortionType::Text" nHeight="269" nWidth="1448" Portion=" mentre no sigui"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="7705" Line="node guardar&#xE0; els registres que ha de particionar al seu atribut results mentre no sigui "/>
+    <Text nLength="96" nType="PortionType::Text" nHeight="269" nWidth="8433" Portion="processat. Per a processar un node trobem la millor partici&#xF3; utilitzant la mateixa funci&#xF3; que de"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="8433" Line="processat. Per a processar un node trobem la millor partici&#xF3; utilitzant la mateixa funci&#xF3; que de "/>
+    <Text nLength="90" nType="PortionType::Text" nHeight="269" nWidth="8055" Portion="forma recursiva, aleshores es poden donar dos casos. Si el millor guany es m&#xE9;s gran que el"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="8055" Line="forma recursiva, aleshores es poden donar dos casos. Si el millor guany es m&#xE9;s gran que el "/>
+    <Text nLength="10" nType="PortionType::Text" nHeight="269" nWidth="998" Portion="par&#xE0;metre "/>
+    <Text nLength="4" nType="PortionType::Text" nHeight="269" nWidth="405" Portion="beta"/>
+    <Text nLength="80" nType="PortionType::Text" nHeight="269" nWidth="6896" Portion=", vol dir que aquest node no &#xE9;s una fulla, per tant l&#x2019;hi modifiquem els atributs"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="8299" Line="par&#xE0;metre beta, vol dir que aquest node no &#xE9;s una fulla, per tant l&#x2019;hi modifiquem els atributs "/>
+    <Text nLength="97" nType="PortionType::Text" nHeight="269" nWidth="8470" Portion="necessaris i l&#x2019;hi guardem una refer&#xE8;ncia als seus nodes fills que encara no han sigut processats."/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="8470" Line="necessaris i l&#x2019;hi guardem una refer&#xE8;ncia als seus nodes fills que encara no han sigut processats. "/>
+    <Text nLength="101" nType="PortionType::Text" nHeight="269" nWidth="8463" Portion="Aquests nodes fills s&#x2019;afegeixen a la llista nodes per a que siguin processats. En canvi, si el millor"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="8463" Line="Aquests nodes fills s&#x2019;afegeixen a la llista nodes per a que siguin processats. En canvi, si el millor "/>
+    <Text nLength="25" nType="PortionType::Text" nHeight="269" nWidth="2378" Portion="guany no &#xE9;s m&#xE9;s gran que "/>
+    <Text nLength="4" nType="PortionType::Text" nHeight="269" nWidth="405" Portion="beta"/>
+    <Text nLength="64" nType="PortionType::Text" nHeight="269" nWidth="5619" Portion=" vol dir que el node es una fulla i per tant no creem m&#xE9;s nodes."/>
+    <LineBreak nWidth="8402" Line="guany no &#xE9;s m&#xE9;s gran que beta vol dir que el node es una fulla i per tant no creem m&#xE9;s nodes."/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x3e73a30" id="20" symbol="11SwTextFrame" next="21" prev="19" upper="11" txtNodeIndex="65" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="28462" width="8504" height="1067" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="887"/>
+    </infos>
+L’estructura orientada a objectes de Python ens permet guardar aquestes referències de manera que al acabar tot el procediment, el node arrel tingui referències a tots els altres nodes.    <Text nLength="86" nType="PortionType::Text" nHeight="269" nWidth="7909" Portion="L&#x2019;estructura orientada a objectes de Python ens permet guardar aquestes refer&#xE8;ncies de"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="7909" Line="L&#x2019;estructura orientada a objectes de Python ens permet guardar aquestes refer&#xE8;ncies de "/>
+    <Text nLength="91" nType="PortionType::Text" nHeight="269" nWidth="7910" Portion="manera que al acabar tot el procediment, el node arrel tingui refer&#xE8;ncies a tots els altres"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="7910" Line="manera que al acabar tot el procediment, el node arrel tingui refer&#xE8;ncies a tots els altres "/>
+    <Text nLength="6" nType="PortionType::Lay" nHeight="269" nWidth="598" Portion="nodes."/>
+    <LineBreak nWidth="598" Line="nodes."/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x3b848b0" id="21" symbol="11SwTextFrame" next="22" prev="20" upper="11" txtNodeIndex="66" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="29529" width="8504" height="609" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="240" width="8504" height="369"/>
+    </infos>
+Funció de classificació    <Text nLength="23" nType="PortionType::Para" nHeight="369" nWidth="3503" Portion="Funci&#xF3; de classificaci&#xF3;"/>
+    <LineBreak nWidth="3503" Line="Funci&#xF3; de classificaci&#xF3;"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x3c6c580" id="22" symbol="11SwTextFrame" prev="21" upper="11" txtNodeIndex="67" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="30138" width="8504" height="1036" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="149" width="8504" height="887"/>
+    </infos>
+La funció de classificació recorre l’arbre fent preguntes als nodes fins a trobar un node fulla. A cada node es realitza la pregunta corresponent i segons si el resultat dóna cert o fals, es continua per la branca True o per la branca False.    <Text nLength="98" nType="PortionType::Text" nHeight="269" nWidth="8373" Portion="La funci&#xF3; de classificaci&#xF3; recorre l&#x2019;arbre fent preguntes als nodes fins a trobar un node fulla. A"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="8373" Line="La funci&#xF3; de classificaci&#xF3; recorre l&#x2019;arbre fent preguntes als nodes fins a trobar un node fulla. A "/>
+    <Text nLength="91" nType="PortionType::Text" nHeight="269" nWidth="7836" Portion="cada node es realitza la pregunta corresponent i segons si el resultat d&#xF3;na cert o fals, es"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="7836" Line="cada node es realitza la pregunta corresponent i segons si el resultat d&#xF3;na cert o fals, es "/>
+    <Text nLength="23" nType="PortionType::Text" nHeight="269" nWidth="2052" Portion="continua per la branca "/>
+    <Text nLength="4" nType="PortionType::Text" nHeight="269" nWidth="401" Portion="True"/>
+    <Text nLength="17" nType="PortionType::Text" nHeight="269" nWidth="1434" Portion=" o per la branca "/>
+    <Text nLength="5" nType="PortionType::Text" nHeight="269" nWidth="456" Portion="False"/>
+    <Text nLength="1" nType="PortionType::Text" nHeight="269" nWidth="56" Portion="."/>
+    <LineBreak nWidth="4399" Line="continua per la branca True o per la branca False."/>
+    <Finish/>
+   </txt>
+  </body>
+ </page>
+ <page ptr="0x3a908e0" id="24" symbol="11SwPageFrame" next="34" prev="10" upper="4" lower="25">
+  <page_status ValidFlyLayout="false" ValidFlyContent="false" ValidFlyInCnt="false" ValidLayout="false" ValidContent="false"/>
+  <infos>
+   <bounds left="7047" top="34528" width="11906" height="16838" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1701" top="1417" width="8504" height="14004"/>
+  </infos>
+  <body ptr="0x3eb2810" id="25" symbol="11SwBodyFrame" upper="24" lower="23">
+   <infos>
+    <bounds left="8748" top="35945" width="8504" height="14004" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="8504" height="14004"/>
+   </infos>
+   <txt ptr="0x3bd0bd0" id="23" symbol="11SwTextFrame" next="26" upper="25" txtNodeIndex="68" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="35945" width="8504" height="654" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="240" width="8504" height="414"/>
+    </infos>
+Clustering    <Text nLength="10" nType="PortionType::Para" nHeight="414" nWidth="1780" Portion="Clustering"/>
+    <LineBreak nWidth="1780" Line="Clustering"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x3bcaaa0" id="26" symbol="11SwTextFrame" next="27" prev="23" upper="25" txtNodeIndex="69" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="36599" width="8504" height="602" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="233" width="8504" height="369"/>
+    </infos>
+Distància total    <Text nLength="15" nType="PortionType::Para" nHeight="369" nWidth="2187" Portion="Dist&#xE0;ncia total"/>
+    <LineBreak nWidth="2187" Line="Dist&#xE0;ncia total"/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x405f4f0" id="27" symbol="11SwTextFrame" next="28" prev="26" upper="25" txtNodeIndex="70" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="37201" width="8504" height="1036" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="149" width="8504" height="887"/>
+    </infos>
+L’atribut intertia_ la calculem a dins la funció fit(). Degut a que en el proper apartat de les Restarting policies l’algoritme es realitza múltiples vegades, la intertia_ es calcula totes les vegades i escollim la millor ja que acabarà essent la que realitza una millor aproximació.    <Text nLength="10" nType="PortionType::Text" nHeight="269" nWidth="808" Portion="L&#x2019;atribut "/>
+    <Text nLength="9" nType="PortionType::Text" nHeight="269" nWidth="763" Portion="intertia_"/>
+    <Text nLength="30" nType="PortionType::Text" nHeight="269" nWidth="2484" Portion=" la calculem a dins la funci&#xF3; "/>
+    <Text nLength="5" nType="PortionType::Text" nHeight="269" nWidth="324" Portion="fit()"/>
+    <Text nLength="41" nType="PortionType::Text" nHeight="269" nWidth="3609" Portion=". Degut a que en el proper apartat de les"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="7988" Line="L&#x2019;atribut intertia_ la calculem a dins la funci&#xF3; fit(). Degut a que en el proper apartat de les "/>
+    <Text nLength="19" nType="PortionType::Text" nHeight="269" nWidth="1631" Portion="Restarting policies"/>
+    <Text nLength="47" nType="PortionType::Text" nHeight="269" nWidth="3934" Portion=" l&#x2019;algoritme es realitza m&#xFA;ltiples vegades, la "/>
+    <Text nLength="9" nType="PortionType::Text" nHeight="269" nWidth="763" Portion="intertia_"/>
+    <Text nLength="21" nType="PortionType::Text" nHeight="269" nWidth="1712" Portion=" es calcula totes les"/>
+    <Text nLength="1" nType="PortionType::Hole" Portion=" "/>
+    <LineBreak nWidth="8040" Line="Restarting policies l&#x2019;algoritme es realitza m&#xFA;ltiples vegades, la intertia_ es calcula totes les "/>
+    <Text nLength="90" nType="PortionType::Lay" nHeight="269" nWidth="7835" Portion="vegades i escollim la millor ja que acabar&#xE0; essent la que realitza una millor aproximaci&#xF3;."/>
+    <LineBreak nWidth="7835" Line="vegades i escollim la millor ja que acabar&#xE0; essent la que realitza una millor aproximaci&#xF3;."/>
+    <Finish/>
+   </txt>
+   <txt ptr="0x3bd5660" id="28" symbol="11SwTextFrame" next="29" prev="27" upper="25" txtNodeIndex="71" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="38237" width="8504" height="609" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="240" width="8504" height="369"/>
+    </infos>
+Distància en funció de k    <Finish/>
+   </txt>
+   <txt ptr="0x3c51e40" id="29" symbol="11SwTextFrame" next="30" prev="28" upper="25" txtNodeIndex="72" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="38846" width="8504" height="4380" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="149" width="8504" height="4231"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x3c4e7e0" id="71" symbol="19SwFlyAtContentFrame" lower="72">
+      <infos>
+       <bounds left="10898" top="38996" width="4205" height="3154" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="4205" height="3154"/>
+      </infos>
+      <notxt ptr="0x40bf6c0" id="72" symbol="13SwNoTextFrame" upper="71">
+       <infos>
+        <bounds left="10898" top="38996" width="4205" height="3154" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="4205" height="3154"/>
+       </infos>
+      </notxt>
+     </fly>
+    </anchored>
+Per a mostrar aquest gràfic, realitzem un número d’execucions amb diferents valors de k i guardem totes les intertia_ en una llista. Aleshores creem un simple gràfic de barres mitjançant la llibreria matplotlib.     <Finish/>
+   </txt>
+   <txt ptr="0x3d0ec50" id="30" symbol="11SwTextFrame" next="31" prev="29" upper="25" txtNodeIndex="73" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="43226" width="8504" height="609" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="240" width="8504" height="369"/>
+    </infos>
+Restarting policies    <Finish/>
+   </txt>
+   <txt ptr="0x3c3a8b0" id="31" symbol="11SwTextFrame" next="32" prev="30" upper="25" txtNodeIndex="74" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="43835" width="8504" height="1654" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="149" width="8504" height="1505"/>
+    </infos>
+Les restarting policies són parametritzades amb el paràmetre execution_times que per defecte s’estableix a 5. S’utilitza dins la funció fit() on tot el procés de generar clusters aleatòriament i calcular els clusters i la inertia_ es repeteix tantes vegades com dicti execution_times i es manté la versió que una inertia_ més petita i això vol dir que els clusters estàn més lligats entre sí.    <Finish/>
+   </txt>
+   <txt ptr="0x3b4e460" id="32" symbol="11SwTextFrame" prev="31" upper="25" txtNodeIndex="75" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="45489" width="8504" height="609" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="240" width="8504" height="369"/>
+    </infos>
+    <Finish/>
+   </txt>
+  </body>
+ </page>
+ <page ptr="0x4084060" id="34" symbol="11SwPageFrame" next="55" prev="24" upper="4" lower="35">
+  <page_status ValidFlyLayout="false" ValidFlyContent="false" ValidFlyInCnt="false" ValidLayout="false" ValidContent="false"/>
+  <infos>
+   <bounds left="7047" top="51650" width="11906" height="16838" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1701" top="1417" width="8504" height="14004"/>
+  </infos>
+  <body ptr="0x3eb2960" id="35" symbol="11SwBodyFrame" upper="34" lower="33">
+   <infos>
+    <bounds left="8748" top="53067" width="8504" height="14004" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="8504" height="14004"/>
+   </infos>
+   <txt ptr="0x3ab5b70" id="33" symbol="11SwTextFrame" next="36" upper="35" txtNodeIndex="76" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="53067" width="8504" height="569" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="200" width="8504" height="369"/>
+    </infos>
+Escollir un valor de k    <Finish/>
+   </txt>
+   <txt ptr="0x4081b10" id="36" symbol="11SwTextFrame" next="37" prev="33" upper="35" txtNodeIndex="77" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="53636" width="8504" height="727" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="149" width="8504" height="578"/>
+    </infos>
+Per a escollir un valor de k hem utilitzat dos mètodes diferents: el Elbow Method i el Silouette Method.    <Finish/>
+   </txt>
+   <txt ptr="0x3a64c60" id="37" symbol="11SwTextFrame" next="38" prev="36" upper="35" txtNodeIndex="78" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="54363" width="8504" height="1376" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="1196"/>
+    </infos>
+L’Elbow Method consisteix en calcular la suma de variació intra-cluster de tots els clusters per un rang de K’s i representar-la en una gràfica. Per calcular la suma de variació intra-cluster d’un cluster, calculem les distàncies de tots els punts d’un cluster entre ells. Aleshores, en aquesta gràfica localitzar el colze (elbow), que és on la funció decrementa més fortament.    <Finish/>
+   </txt>
+   <txt ptr="0x3b1cb40" id="38" symbol="11SwTextFrame" next="39" prev="37" upper="35" txtNodeIndex="79" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="55739" width="8504" height="3886" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="3706"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x3eaf4c0" id="73" symbol="19SwFlyAtContentFrame" lower="74">
+      <infos>
+       <bounds left="10856" top="55920" width="4288" height="3216" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="4288" height="3216"/>
+      </infos>
+      <notxt ptr="0x3ea6900" id="74" symbol="13SwNoTextFrame" upper="73">
+       <infos>
+        <bounds left="10856" top="55920" width="4288" height="3216" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="4288" height="3216"/>
+       </infos>
+      </notxt>
+     </fly>
+    </anchored>
+    <Finish/>
+   </txt>
+   <txt ptr="0x40af100" id="39" symbol="11SwTextFrame" next="40" prev="38" upper="35" txtNodeIndex="80" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="59625" width="8504" height="449" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="269"/>
+    </infos>
+Com podem veure, el colze es troba a 2, que és el número òptim de clusters d’aquest dataset.    <Finish/>
+   </txt>
+   <txt ptr="0x40861d0" id="40" symbol="11SwTextFrame" next="41" prev="39" upper="35" txtNodeIndex="81" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="60074" width="8504" height="758" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="578"/>
+    </infos>
+El següent mètode, el Silhouette Method, consisteix en calcular la mitjana de la Silhouette dels punts un cop s’ha realitzat l’execució de l’algoritme en un rang de K’s.     <Finish/>
+   </txt>
+   <txt ptr="0x40833b0" id="41" symbol="11SwTextFrame" next="42" prev="40" upper="35" txtNodeIndex="82" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="60832" width="8504" height="758" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="578"/>
+    </infos>
+A partir del número de clusters, podem calcular la Silhouette mitjana i la Silhouette d’un punt amb les següents fórmules:    <Finish/>
+   </txt>
+   <txt ptr="0x4081d80" id="42" symbol="11SwTextFrame" next="43" prev="41" upper="35" txtNodeIndex="83" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="61590" width="8504" height="1127" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="947"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x4b2ed80" id="79" symbol="19SwFlyInContentFrame" lower="80">
+      <infos>
+       <bounds left="10872" top="61770" width="2272" height="947" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="2272" height="947"/>
+      </infos>
+      <notxt ptr="0x39cca00" id="80" symbol="13SwNoTextFrame" upper="79">
+       <infos>
+        <bounds left="10872" top="61770" width="2272" height="947" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="2272" height="947"/>
+       </infos>
+      </notxt>
+     </fly>
+     <fly ptr="0x4b36b20" id="81" symbol="19SwFlyInContentFrame" lower="82">
+      <infos>
+       <bounds left="13144" top="61916" width="1932" height="655" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="1932" height="655"/>
+      </infos>
+      <notxt ptr="0x3a8e290" id="82" symbol="13SwNoTextFrame" upper="81">
+       <infos>
+        <bounds left="13144" top="61916" width="1932" height="655" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1932" height="655"/>
+       </infos>
+      </notxt>
+     </fly>
+    </anchored>
+*****    <Finish/>
+   </txt>
+   <txt ptr="0x4087b60" id="43" symbol="11SwTextFrame" next="44" prev="42" upper="35" txtNodeIndex="84" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="62717" width="8504" height="1067" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="887"/>
+    </infos>
+El paràmetre a calcula la mitjana de la distància del punt que estem calculant a tots els altres punts del mateix cluster. Com més proper a 0 sigui aquest número, millor. Es calcula de la següent forma:    <Finish/>
+   </txt>
+   <txt ptr="0x3b16340" id="44" symbol="11SwTextFrame" next="45" prev="43" upper="35" txtNodeIndex="85" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="63784" width="8504" height="1232" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="1052"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x4b39100" id="83" symbol="19SwFlyInContentFrame" lower="84">
+      <infos>
+       <bounds left="10872" top="63964" width="3361" height="1052" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="3361" height="1052"/>
+      </infos>
+      <notxt ptr="0x4b40cf0" id="84" symbol="13SwNoTextFrame" upper="83">
+       <infos>
+        <bounds left="10872" top="63964" width="3361" height="1052" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="3361" height="1052"/>
+       </infos>
+      </notxt>
+     </fly>
+    </anchored>
+****    <Finish/>
+   </txt>
+   <txt ptr="0x3a36f40" id="45" symbol="11SwTextFrame" next="46" prev="44" upper="35" txtNodeIndex="86" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="65016" width="8504" height="821" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="641"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x4b3bb50" id="85" symbol="19SwFlyInContentFrame" lower="86">
+      <infos>
+       <bounds left="9879" top="65196" width="672" height="332" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="672" height="332"/>
+      </infos>
+      <notxt ptr="0x4b38f00" id="86" symbol="13SwNoTextFrame" upper="85">
+       <infos>
+        <bounds left="9879" top="65196" width="672" height="332" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="672" height="332"/>
+       </infos>
+      </notxt>
+     </fly>
+     <fly ptr="0x4b46c80" id="87" symbol="19SwFlyInContentFrame" lower="88">
+      <infos>
+       <bounds left="13407" top="65215" width="1024" height="294" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="1024" height="294"/>
+      </infos>
+      <notxt ptr="0x41d7220" id="88" symbol="13SwNoTextFrame" upper="87">
+       <infos>
+        <bounds left="13407" top="65215" width="1024" height="294" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1024" height="294"/>
+       </infos>
+      </notxt>
+     </fly>
+    </anchored>
+Dividim per *ja que no calculem la distància*. Si el punt i és l’únic punt del cluster, el paràmetre a és 0.    <Finish/>
+   </txt>
+   <txt ptr="0x3a3ccb0" id="46" symbol="11SwTextFrame" prev="45" upper="35" txtNodeIndex="87" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="65837" width="8504" height="1067" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="887"/>
+    </infos>
+El paràmetre b calcula la mitjana de la distància del punt que estem calculant a tots els punts del cluster que està més aprop seu, però del que no forma part. Com més gran sigui, millor. Es calcula amb aquesta fórmula:    <Finish/>
+   </txt>
+  </body>
+ </page>
+ <page ptr="0x3b1a940" id="55" symbol="11SwPageFrame" next="93" prev="34" upper="4" lower="56">
+  <page_status ValidFlyLayout="false" ValidFlyContent="false" ValidFlyInCnt="false" ValidLayout="false" ValidContent="false"/>
+  <infos>
+   <bounds left="7047" top="68772" width="11906" height="16838" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1701" top="1417" width="8504" height="14004"/>
+  </infos>
+  <body ptr="0x3f00a60" id="56" symbol="11SwBodyFrame" upper="55" lower="47">
+   <infos>
+    <bounds left="8748" top="70189" width="8504" height="14004" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="8504" height="14004"/>
+   </infos>
+   <txt ptr="0x3a36450" id="47" symbol="11SwTextFrame" next="48" upper="56" txtNodeIndex="88" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="70189" width="8504" height="718" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="0" width="8504" height="718"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x4b4aa50" id="89" symbol="19SwFlyInContentFrame" lower="90">
+      <infos>
+       <bounds left="11580" top="70189" width="1817" height="718" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="1817" height="718"/>
+      </infos>
+      <notxt ptr="0x4b49c20" id="90" symbol="13SwNoTextFrame" upper="89">
+       <infos>
+        <bounds left="11580" top="70189" width="1817" height="718" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="1817" height="718"/>
+       </infos>
+      </notxt>
+     </fly>
+    </anchored>
+*****    <Finish/>
+   </txt>
+   <txt ptr="0x3d29d40" id="48" symbol="11SwTextFrame" next="49" prev="47" upper="56" txtNodeIndex="89" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="70907" width="8504" height="1067" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="887"/>
+    </infos>
+En aquesta fórmula, utilitzem el mínim per a agafar solament la mitjana de distàncies més propera, que calculem amb d(j) que és la distància mitja des del punt i a tots els punts del cluster j i que calculem així:    <Finish/>
+   </txt>
+   <txt ptr="0x3d22400" id="49" symbol="11SwTextFrame" next="50" prev="48" upper="56" txtNodeIndex="90" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="71974" width="8504" height="1232" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="1052"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x4b589e0" id="91" symbol="19SwFlyInContentFrame" lower="92">
+      <infos>
+       <bounds left="10872" top="72154" width="3509" height="1052" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="3509" height="1052"/>
+      </infos>
+      <notxt ptr="0x4b56d10" id="92" symbol="13SwNoTextFrame" upper="91">
+       <infos>
+        <bounds left="10872" top="72154" width="3509" height="1052" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="3509" height="1052"/>
+       </infos>
+      </notxt>
+     </fly>
+    </anchored>
+****    <Finish/>
+   </txt>
+   <txt ptr="0x3b376e0" id="50" symbol="11SwTextFrame" next="51" prev="49" upper="56" txtNodeIndex="91" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="73206" width="8504" height="1685" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="1505"/>
+    </infos>
+Aleshores, tornant a la fórmula de la Silhouette s(i), veiem que prendrà un valor entre 1 i -1. Com més proper a 1 millor, ja que vol dir que aquest punt està molt aprop dels punts del seu cluster, i molt lluny de qualsevol altre cluster. En canvi, si el resultat és negatiu, vol dir que aquest punt no ha estat assignat correctament, ja que està més aprop d’un altre cluster que del seu.    <Finish/>
+   </txt>
+   <txt ptr="0x3aa4130" id="51" symbol="11SwTextFrame" next="52" prev="50" upper="56" txtNodeIndex="92" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="74891" width="8504" height="1067" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="887"/>
+    </infos>
+Per saber quin valor de k és millor, hem de calcular la mitjana de Silhouettes i agafar la màxima. També podem crear una gràfica de les Silhouettes del cluster per veure les Silhouettes de cada punt. Si hi ha algun punt negatiu vol dir que està mal assignat.    <Finish/>
+   </txt>
+   <txt ptr="0x2df5730" id="52" symbol="11SwTextFrame" next="53" prev="51" upper="56" txtNodeIndex="93" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="75958" width="8504" height="3882" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="3702"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x40854a0" id="75" symbol="19SwFlyAtContentFrame" lower="76">
+      <infos>
+       <bounds left="10859" top="76139" width="4283" height="3212" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="4283" height="3212"/>
+      </infos>
+      <notxt ptr="0x4070930" id="76" symbol="13SwNoTextFrame" upper="75">
+       <infos>
+        <bounds left="10859" top="76139" width="4283" height="3212" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="4283" height="3212"/>
+       </infos>
+      </notxt>
+     </fly>
+    </anchored>
+Aquí podem veure que amb 4 clusters hi ha punts que estan mal assignats.    <Finish/>
+   </txt>
+   <txt ptr="0x2e01ac0" id="53" symbol="11SwTextFrame" prev="52" upper="56" txtNodeIndex="94" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="79840" width="8504" height="4191" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="4011"/>
+    </infos>
+    <anchored>
+     <fly ptr="0x3a9c130" id="77" symbol="19SwFlyAtContentFrame" lower="78">
+      <infos>
+       <bounds left="10859" top="80021" width="4282" height="3212" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+       <prtBounds left="0" top="0" width="4282" height="3212"/>
+      </infos>
+      <notxt ptr="0x3ed64c0" id="78" symbol="13SwNoTextFrame" upper="77">
+       <infos>
+        <bounds left="10859" top="80021" width="4282" height="3212" mbFixSize="false" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+        <prtBounds left="0" top="0" width="4282" height="3212"/>
+       </infos>
+      </notxt>
+     </fly>
+    </anchored>
+Finalment podem veure que el valor màxim es troba al 2, que és el mateix resultat que hem obtingut amb el Elbow Method.    <Finish/>
+   </txt>
+  </body>
+ </page>
+ <page ptr="0x4b07f30" id="93" symbol="11SwPageFrame" prev="55" upper="4" lower="94">
+  <page_status ValidFlyLayout="false" ValidFlyContent="false" ValidFlyInCnt="false" ValidLayout="false" ValidContent="false"/>
+  <infos>
+   <bounds left="7047" top="85894" width="11906" height="16838" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+   <prtBounds left="1701" top="1417" width="8504" height="14004"/>
+  </infos>
+  <body ptr="0x4236a70" id="94" symbol="11SwBodyFrame" upper="93" lower="54">
+   <infos>
+    <bounds left="8748" top="87311" width="8504" height="14004" mbFixSize="true" mbValidPos="true" mbValidSize="true" mbValidPrtArea="true"/>
+    <prtBounds left="0" top="0" width="8504" height="14004"/>
+   </infos>
+   <txt ptr="0x2e02180" id="54" symbol="11SwTextFrame" next="57" upper="94" txtNodeIndex="95" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="87311" width="8504" height="654" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="240" width="8504" height="414"/>
+    </infos>
+Scikit-learn    <Finish/>
+   </txt>
+   <txt ptr="0x2df39a0" id="57" symbol="11SwTextFrame" next="58" prev="54" upper="94" txtNodeIndex="96" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="87965" width="8504" height="602" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="233" width="8504" height="369"/>
+    </infos>
+Missing data    <Finish/>
+   </txt>
+   <txt ptr="0x3c42260" id="58" symbol="11SwTextFrame" next="59" prev="57" upper="94" txtNodeIndex="97" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="88567" width="8504" height="727" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="149" width="8504" height="578"/>
+    </infos>
+Primer de tot, llegim els fitxers .csv mitjançant la funció de pandas: read_csv. Imprimint les cinc primeres dades de cada set ja podem veure que hi han dades que falten.    <Finish/>
+   </txt>
+   <txt ptr="0x3b1cfb0" id="59" symbol="11SwTextFrame" next="60" prev="58" upper="94" txtNodeIndex="98" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="89294" width="8504" height="1067" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="887"/>
+    </infos>
+Per a computar aquestes dades que falten sklearn disposa de la llibreria sklearn.impute que proporciona diferents mètodes per a calcular aquestes dades que falten. Les classes que hem utilitzat en aquesta pràctica són: SimpleImputer i KNNImputer.    <Finish/>
+   </txt>
+   <txt ptr="0x3ace830" id="60" symbol="11SwTextFrame" next="61" prev="59" upper="94" txtNodeIndex="99" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="90361" width="8504" height="1994" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="1814"/>
+    </infos>
+La classe SimpleImputer consta de les següents estratègies, constant, mean, median i most_frequent. L’estratègia constant substitueix tots els valors que falten per un valor que es passa per paràmetre. En el nostre cas aquest valor ha sigut 0. L’estratègia mean substitueix els valors que falten per la mitjana d’aquella columna. L’estratègia median les canvia per la mediana de la columna. Finalment, l’estratègia most_frequent les canvia per la dada que més es repeteix en la columna.    <Finish/>
+   </txt>
+   <txt ptr="0x3fee790" id="61" symbol="11SwTextFrame" prev="60" upper="94" txtNodeIndex="100" WritingMode="Horizontal">
+    <infos>
+     <bounds left="8748" top="92355" width="8504" height="1685" mbFixSize="false" mbValidPos="true" mbValidSize="false" mbValidPrtArea="true"/>
+     <prtBounds left="0" top="180" width="8504" height="1505"/>
+    </infos>
+La classe KNNImputer rep per paràmetre un número de veïns i una estratègia de dues possibles, uniform o distance. El que fa aquesta Imputer és calcular les dades que falten a partir dels valors dels seus veïns, calculats amb la distància Euclidean. KNNImputer calcula la mitja dels veïns si l’estratègia és uniform. Si l’estratègia és distance calcularà la mitjana ponderada donant més pes als veïns que estan més prop dels veïns que ens interessen.    <Finish/>
+   </txt>
+  </body>
+ </page>
+</root>
